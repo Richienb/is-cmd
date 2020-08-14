@@ -1,6 +1,6 @@
 {
 	"name": "is-cmd",
-	"version": "0.0.0",
+	"version": "1.0.0",
 	"description": "Check if the current environment is the Windows Command Prompt.",
 	"repository": "https://github.com/Richienb/is-cmd.git",
 	"author": "Richie Bendall <richiebendall@gmail.com>",
