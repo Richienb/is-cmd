@@ -1,15 +1,13 @@
 /**
-My awesome module.
-@param input Lorem ipsum.
-@param postfix Lorem ipsum.
+Check if the current environment is the Windows Command Prompt.
 @example
 ```
-const theModule = require("the-module");
+const isCmd = require("is-cmd");
 
-theModule("unicorns");
-//=> 'unicorns & rainbows'
+isCmd();
+//=> true
 ```
 */
-declare function theModule(input: string, { postfix }: { postfix?: string }): string
+declare function isCmd(): boolean
 
-export = theModule
+export = isCmd

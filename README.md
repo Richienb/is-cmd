@@ -1,41 +1,24 @@
-# the-module [![Travis CI Build Status](https://img.shields.io/travis/com/Richienb/the-module/master.svg?style=for-the-badge)](https://travis-ci.com/Richienb/the-module)
+# is-cmd [![Travis CI Build Status](https://img.shields.io/travis/com/Richienb/is-cmd/master.svg?style=for-the-badge)](https://travis-ci.com/Richienb/is-cmd)
 
-My awesome module.
+Check if the current environment is the Windows Command Prompt.
 
-[![NPM Badge](https://nodei.co/npm/the-module.png)](https://npmjs.com/package/the-module)
+[![NPM Badge](https://nodei.co/npm/is-cmd.png)](https://npmjs.com/package/is-cmd)
 
 ## Install
 
 ```sh
-npm install the-module
+npm install is-cmd
 ```
 
 ## Usage
 
 ```js
-const theModule = require("the-module");
+const isCmd = require("is-cmd");
 
-theModule("unicorns");
-//=> 'unicorns & rainbows'
+isCmd();
+//=> true
 ```
 
 ## API
 
-### theModule(input, options?)
-
-#### input
-
-Type: `string`
-
-Lorem ipsum.
-
-#### options
-
-Type: `object`
-
-##### postfix
-
-Type: `string`\
-Default: `rainbows`
-
-Lorem ipsum.
+### isCmd()

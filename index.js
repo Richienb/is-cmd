@@ -1,9 +1,3 @@
 "use strict"
 
-module.exports = (input, { postfix = "rainbows" } = {}) => {
-	if (typeof input !== "string") {
-		throw new TypeError(`Expected a string, got ${typeof input}`)
-	}
-
-	return `${input} & ${postfix}`
-}
+module.exports = () => process.platform === "win32" && typeof process.env.ComSpec === "string" && process.env.TERM !== "cygwin"

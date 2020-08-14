@@ -1,8 +1,8 @@
 {
-	"name": "the-module",
+	"name": "is-cmd",
 	"version": "0.0.0",
-	"description": "My awesome module.",
-	"repository": "https://github.com/Richienb/the-module.git",
+	"description": "Check if the current environment is the Windows Command Prompt.",
+	"repository": "https://github.com/Richienb/is-cmd.git",
 	"author": "Richie Bendall <richiebendall@gmail.com>",
 	"license": "MIT",
 	"main": "index.js",
@@ -17,7 +17,15 @@
 		"lint": "xo",
 		"test": "xo && ava"
 	},
-	"keywords": [],
+	"keywords": [
+		"detect",
+		"environment",
+		"cmd",
+		"windows",
+		"cygwin",
+		"shell",
+		"terminal"
+	],
 	"dependencies": {},
 	"devDependencies": {
 		"ava": "^3.10.1",
